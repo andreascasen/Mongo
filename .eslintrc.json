@@ -1,0 +1,15 @@
+{
+	"extends": "standard",
+	"env": {
+		"mocha": true
+	},
+    "rules": {
+        "indent": [2, "tab"],
+		"template-curly-spacing": ["error", "always"],
+		"no-tabs": 0,
+		"mocha/no-exclusive-tests": "error"
+	},
+	"plugins": [
+		"mocha"
+	]
+}
