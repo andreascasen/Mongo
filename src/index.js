@@ -1,6 +1,6 @@
 import { MongoClient, ObjectID } from 'mongodb'
 
-class MongoDBConnector {
+class MongoDB {
 	constructor (connectionUrl, databaseName) {
 		if (typeof connectionUrl !== 'string' || connectionUrl.length === 0) {
 			throw new Error('Invalid Connection URL')
